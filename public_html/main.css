@@ -1,0 +1,86 @@
+
+/* 
+    Created on : 2016-11-28, 23:55:04
+    Author     : Kamila Przychodzen <kamila.przychodzen@gmail.com>
+*/
+
+.main-container{
+    background: url('img/house.jpg');
+    min-height: 530px;
+    background-size: cover;
+    background-position:70% 35%;
+    background-repeat: no-repeat;
+    padding:40px;
+}
+
+.logo{
+    background: url('img/Picture2.png');
+    width: 345px;
+    height: 74px;
+    background-size: auto 100%;
+    background-position: 100% 10%; 
+    background-repeat: no-repeat;
+
+}
+
+.newsletter-form {
+    padding: 20px;
+    background-color: rgba(108,100,87,0.65);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left:10px;
+    margin-top:10px;
+    height:420px;
+}
+
+.form-landing {
+    color:white;
+}
+.custom-logo-text{
+    /*padding-top: 17px;*/
+    color: rgba(108,100,87,0.9);
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: 100;
+    /*margin: 10px 10px 0 10px;*/
+    text-align: center;
+    vertical-align:middle;
+}
+.register-text{
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.confirmation-message{
+    color:white;
+    padding:20px;
+}
+.confirmation-message p a{
+    cursor: pointer;
+    font-size: larger;
+}
+
+.heading{
+    text-align: center;
+    font-style: italic;
+    padding-top: 40px;
+    color:rgba(108,100,87,0.9);
+}
+
+.marketing-tag{
+    text-align: center;
+    font-weight: 100;
+    color:rgba(108,100,87,0.9);
+}
+
+.marketing-description{
+    padding:10px;
+}
+.hidden{
+    display:none;
+}
+.invalid-field{
+    color:red;
+    border-color:red;
+}

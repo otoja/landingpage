@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The place to store everything about your house - The fun way!">
+        <meta name="keywords" content="Housebook, design, sketch, share, home, house">
+        <meta name="author" content="Kamila Przychodzen">
+        <title>Housebook</title>
+
+        <!-- Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="row">
+                <div class="navbar-header">
+                    <a class="navbar-brand logo" href="#">
+                    </a>
+                    <div class="navbar-text custom-logo-text"><h2>Everything about your home - The fun way!</h2></div>
+                </div>
+            </div>
+        </nav>
+        <div class="main-container container-fluid">
+            <div class="newsletter-form col-xs-11 col-sm-8 col-md-5 col-lg-3">
+
+                <form class="form-landing">
+                    <p class="text-centered text-uppercase register-text lead">interested in HouseBook?</p>
+                    <p class="validation hidden"></p>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" required placeholder="Name" onchange="removeInvalidClass(this)">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="email" required placeholder="Email" onchange="removeInvalidClass(this)"/>
+                    </div>
+                    <div class="form-group clearfix">
+                        <textarea id="message" rows="5" class="col-xs-12" placeholder="Your message"></textarea>
+                    </div>
+
+                    <button type="button" onclick="sendMail(); return false;" class="btn btn-success btn-lg btn-block">Contact us!</button>
+                </form>
+
+                <div id="confirmation-message" class="confirmation-message hidden">
+                    <h2>
+                        Thank you! 
+                    </h2>
+                    <p>We appreciate that you’ve taken the time to write to us. We will contact you as soon as we review your message.</p>
+                    <p>Your opinion is very important to us. We wil greately appreciate if you take time to participate in our <a class="text-info" href="https://guri4.typeform.com/to/An86Ax" target="_blank">cutomer&nbsp;survey</a>.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row-fluid">
+            <div class="col-md-4 col-xs-12 marketing">
+                <h2 class="heading">&HorizontalLine; 1 &HorizontalLine;</h2>
+                <p class="text-uppercase marketing-tag"> Design refurbishment</p>
+                <p class="marketing-description">Use the Housebook application to easily design refurbishment of your house. Store images for inspiration and share your ideas with several entrepreneurs directly from the application.</p>
+            </div>
+            <div class="col-md-4 col-xs-12 marketing">
+                <h2 class="heading">&HorizontalLine; 2 &HorizontalLine;</h2>
+                <p class="text-uppercase marketing-tag">Collect data</p>
+                <p class="marketing-description">Throw away all user manuals and instead store them all in this application. Get an easy to use list of all banks, insurance companies etc that the household has and which benefits are available to you. </p>
+            </div>
+            <div class="col-md-4 col-xs-12 marketing">
+                <h2 class="heading">&HorizontalLine; 3 &HorizontalLine;</h2>
+                <p class="text-uppercase marketing-tag">Overview of expenses and income</p>
+                <p class="marketing-description">Get live overview of expenses such as TV and internet abonnement, energy consumption and income like rent-out apartment rent.</p>
+            </div>
+        </div>
+        <footer>
+            <div class="navbar navbar-default navbar-fixed-bottom">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <span>&COPY;Housebook 2016</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/js/bootstrap.js"></script>
+        <script src="main.js" type="text/javascript"></script>
+    </body>
+</html>
